@@ -2,16 +2,15 @@
 
 # Présentation
 
-![speaker](./assets/images/jf.jpg)
-![badge](./assets/images/gde.png)
+![speaker](./assets/images/bm.jpg)
 ![company](./assets/images/logo_sfeir_bleu_orange.png)
 
-## Jean-François Garreau
+## Benoît MAIRE
 
-### CTO front
+### Ingénieur Solution
+
 <!-- .element: class="icon-rule icon-first" -->
 
-### @jefbinomed
+### @Benoit_MAIRE
+
 <!-- .element: class="icon-twitter icon-second" -->
-
-
