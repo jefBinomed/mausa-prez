@@ -1,5 +1,5 @@
 <!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="xxx" -->
 
-<!-- .slide: class="transition" -->
+<!-- .slide: data-background="./assets/images/streetart.jpeg" class="transition" -->
 
-# Mausa App - Presentation
+# Mausa App : sous le capot
