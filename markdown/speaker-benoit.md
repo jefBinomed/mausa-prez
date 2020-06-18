@@ -3,7 +3,7 @@
 # Présentation
 
 ![speaker](./assets/images/bm.jpg)
-![company](./assets/images/logo_sfeir_bleu_orange.png)
+![company](./assets/images/logo-SFEIR-blanc.png)
 
 ## Benoît MAIRE
 
