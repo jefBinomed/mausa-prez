@@ -12,7 +12,7 @@
 
 ##==##
 
-<!-- .slide: data-background="./assets/images/learning.jpg" class="transition bottom underline" -->
+<!-- .slide: data-background="./assets/images/learning.jpg" class="transition bottom" -->
 
 # Mise à jour asynchrone
 

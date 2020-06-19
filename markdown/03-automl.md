@@ -31,7 +31,7 @@ Edge = offline vs Vision = in cloud
 
 ##==##
 
-<!-- .slide: data-background="./assets/images/bg-0302.jpg" class="transition underline bottom"-->
+<!-- .slide: data-background="./assets/images/bg-0302.jpg" class="transition bottom"-->
 
 # Entraînement
 
