@@ -3,7 +3,7 @@
 # PWA
 
 Notes:
-Le scan des oeuvres avec le résultat
+First evolution - PWA - offline
 
 ##==##
 
@@ -13,11 +13,10 @@ Le scan des oeuvres avec le résultat
 
 Notes:
 
-- le principale étant l'indépendance de la connexion
+- Main offline
 
 - Développement d'application Web telle une applications mobiles ou natives
   Première clé de boost des PWA,
-- le service worker va être la clé de la gestion d'un cache applicatif
 
 - fichier manifest
 
@@ -40,6 +39,8 @@ Angular génère un service worker - @angular/service-worker
 ngsw-worker.json => ngsw-worker.js
 
 Le service worker d'angular se charge de toutes la gestion des données statiques ainsi que des routes principales
+
+New @angular/pwa
 
 ##==##
 
@@ -113,7 +114,7 @@ Notes:
 Le service worker Angular va tout analyzer de base et si erreur aucune possibilité à notre service de worker d'intercepter l'appel
 Défaut :
 
-- paramètre à surcharger
+- paramètre à surcharger !!
 
 ##==##
 

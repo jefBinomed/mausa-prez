@@ -4,6 +4,7 @@
 
 Notes:
 Service de machine learning de GCP
+=> besoin : classification d'image
 
 ##==##
 
@@ -15,7 +16,7 @@ Service de machine learning de GCP
 
 Notes:
 Plus il y a d'images, plus la qualité du modèle est meilleure
-Classer les images par étiquette - ré-utilisation du générateur de CSV
+Classer les images par étiquette - générateur de CSV
 
 ##==##
 
@@ -25,7 +26,8 @@ Classer les images par étiquette - ré-utilisation du générateur de CSV
     <div><img src="/assets/images/vision.jpg"><p>API Vision</p></div>
     <div><img src="/assets/images/edge.jpg"><p>Edge</p></div>
 </div>
-Notes: Edge = offline vs Vision = in cloud
+Notes:
+Edge = offline vs Vision = in cloud
 
 ##==##
 
@@ -33,7 +35,8 @@ Notes: Edge = offline vs Vision = in cloud
 
 # Entraînement
 
-Notes: Etape Longue mais totalement transparente
+Notes:
+Etape Longue mais totalement transparente
 Lancement durant la nuit - attention à la tarification et à la taille de votre projet
 
 ##==##
