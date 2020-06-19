@@ -22,4 +22,4 @@
 
 # Générateur de l'application
 
-//schema
+![center h-900](./assets/images/generator.svg)
