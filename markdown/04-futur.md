@@ -1,18 +1,25 @@
-<!-- .slide: class="transition"-->
+<!-- .slide: data-background="./assets/images/streetart-06.jpg" class="transition"-->
 
-# Et après ?
+# Backlog
 
 ##==##
 
 <!-- .slide:-->
 
-# Plusieurs features dans les cartons
+# Synchronisation Backend - PWA
 
-<br>
-<ul>
-<li><strong>Synchronisation</strong> Backend - PWA</li>
-<br>
-<li class="fragment">Mise à jour <strong>dynamique</strong> du modèle</li>
-<br>
-<li class="fragment"><strong>Générateur</strong> de l'application</li>
-</ul>
+![center h-800](./assets/images/sync-worker.jpg)
+
+##==##
+
+<!-- .slide: data-background="./assets/images/learning.jpg" class="transition bottom underline" -->
+
+# Mise à jour asynchrone
+
+##==##
+
+<!-- .slide:-->
+
+# Générateur de l'application
+
+//schema

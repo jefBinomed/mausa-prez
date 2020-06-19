@@ -1,28 +1,15 @@
-<!-- .slide: class="transition" -->
-
-# Quel est la fonctionnalité clé à avoir en offline ?
-
-Notes: Le scan des oeuvres avec le résultat
-
-##==##
-
-<!-- .slide: class="transition" -->
+<!-- .slide: data-background="./assets/images/streetart-01.jpg" class="transition" -->
 
 # PWA
+
+Notes:
+Le scan des oeuvres avec le résultat
 
 ##==##
 
 # Les principes
 
-<br><ul>
-
-<li>Progressive</li>
-<li class="fragment">Sécurisée</li>
-<li class="fragment">Engageante</li>
-<li class="fragment">Installable</li>
-<li class="fragment"><strong>Rapidité</strong></li>
-<li class="fragment"><strong>Indépendance de la connexion</strong></li>
-</ul>
+![center](./assets/images/pwa.png)
 
 Notes:
 
@@ -56,9 +43,9 @@ Le service worker d'angular se charge de toutes la gestion des données statique
 
 ##==##
 
-<!-- .slide: class="transition"-->
+<!-- .slide: data-background="./assets/images/streetart-02.jpg" class="transition"-->
 
-# Et nos appels dyamiques ?
+# Service worker - custom
 
 ##==##
 
@@ -73,7 +60,7 @@ self.addEventListener('activate', (event) => {
       .delete('app-cache')
       .then(
         caches.open('app-cache').then(async (cache) => {
-          const list = await getListArtist();
+          const list = await getListArtist(cache);
           for await (const entry of list) {
             pushArtistInCache(entry, cache);
           }
@@ -105,13 +92,47 @@ self.addEventListener('fetch', (event) => {
 });
 ```
 
-<!--.element: class="big-code"-->
+##==##
+
+<!-- .slide: data-background="./assets/images/streetart-03.jpg" class="transition"-->
+
+# Deux services worker
 
 ##==##
 
-# Problème comment gérer deux services worker ?
+# Voie officielle
 
-[bypassing the service worker](https://angular.io/guide/service-worker-devops#bypassing-the-service-worker)
+> To bypass the service worker you can set ngsw-bypass as a request header, or as a query parameter. (The value of the header or query parameter is ignored and can be empty or omitted.)
 
-Notes :
+<br>
+
+![left w-100](./assets/images/angular.svg)
+[https://angular.io/guide/service-worker-devops#bypassing-the-service-worker](https://angular.io/guide/service-worker-devops#bypassing-the-service-worker)
+
+Notes:
 Le service worker Angular va tout analyzer de base et si erreur aucune possibilité à notre service de worker d'intercepter l'appel
+Défaut :
+
+- paramètre à surcharger
+
+##==##
+
+<!-- .slide: class="with-code"-->
+
+# Notre solution
+
+<br>
+
+### mausa-ngsw-worker.js
+
+```javascript
+// events before angular service worker
+self.addEventListener('fetch', event => { ... })
+/****IMPORT ANGULAR WORKER******/
+importScripts('./ngsw-worker.js')
+
+self.addEventListener('fetch', event => { ... })
+
+```
+
+<!--.element: class="big-code"-->
