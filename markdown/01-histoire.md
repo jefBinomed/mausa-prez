@@ -1,3 +1,21 @@
-<!-- .slide: data-background="./assets/images/street-art-face.jpeg" class="transition bg-white" -->
+<!-- .slide: data-background="./assets/images/street-art-monopoly.jpeg" class="transition" -->
 
-# Histoire
+# Marque blanche ?
+
+##==##
+
+<!-- .slide: data-background="./assets/images/street-art-map.jpeg" class="transition" -->
+
+# Nouvelles fonctionnalités
+
+Notes:
+Liste ordonées / Feedback / Géoloc
+
+##==##
+
+<!-- .slide: data-background="./assets/images/street-art-clean.jpeg" class="transition" -->
+
+# Remise à plat
+
+Notes:
+Version de node / Angular
