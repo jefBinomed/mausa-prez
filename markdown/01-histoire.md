@@ -2,6 +2,10 @@
 
 # Marque blanche ?
 
+Notes:
+Dépendance au StreetArt très faible ! Exemple Is It A Shirt, Train,
+Nombreux uses cases publics : Musés, Animations en ville, Nature,
+
 ##==##
 
 <!-- .slide: data-background="./assets/images/street-art-map.jpeg" class="transition" -->
@@ -9,7 +13,7 @@
 # Nouvelles fonctionnalités
 
 Notes:
-Liste ordonées / Feedback / Géoloc
+Liste ordonées / Feedback / Géoloc / Desc
 
 ##==##
 
@@ -18,7 +22,7 @@ Liste ordonées / Feedback / Géoloc
 # Remise à plat
 
 Notes:
-Version de node / Angular
+Version de node / Angular / Prise de recul sur l'archi
 
 ##==##
 
