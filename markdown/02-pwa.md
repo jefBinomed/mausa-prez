@@ -1,13 +1,13 @@
-<!-- .slide: data-background="./assets/images/streetart-01.jpg" class="transition" -->
+<!-- .slide: class="" -->
 
-# PWA
+![center h-900](./assets/images/dinosaur.jpg)
 
 Notes:
 First evolution - PWA - offline
 
 ##==##
 
-# Les principes
+# PWA
 
 ![center](./assets/images/pwa.png)
 
