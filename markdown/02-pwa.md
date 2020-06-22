@@ -22,6 +22,12 @@ Notes:
 
 ##==##
 
+# Service worker
+
+![center](./assets/images/service_worker_explain.svg)
+
+##==##
+
 <!-- .slide: class="with-code"-->
 
 # Le contexte technique - Angular
