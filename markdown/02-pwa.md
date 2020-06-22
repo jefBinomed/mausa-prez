@@ -44,7 +44,7 @@ New @angular/pwa
 
 ##==##
 
-<!-- .slide: data-background="./assets/images/streetart-02.jpg" class="transition"-->
+<!-- .slide: data-background="./assets/images/streetart-01.jpg" class="transition"-->
 
 # Service worker - custom
 
@@ -95,7 +95,7 @@ self.addEventListener('fetch', (event) => {
 
 ##==##
 
-<!-- .slide: data-background="./assets/images/streetart-03.jpg" class="transition"-->
+<!-- .slide: data-background="./assets/images/streetart-02.jpg" class="transition"-->
 
 # Deux services worker
 

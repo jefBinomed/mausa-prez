@@ -1,4 +1,4 @@
-<!-- .slide: data-background="./assets/images/streetart-06.jpg" class="transition"-->
+<!-- .slide: data-background="./assets/images/streetart-04.jpg" class="transition"-->
 
 # Backlog
 

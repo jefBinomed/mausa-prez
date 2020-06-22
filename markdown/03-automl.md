@@ -1,4 +1,4 @@
-<!-- .slide: data-background="./assets/images/streetart-04.jpg" class="transition" -->
+<!-- .slide: data-background="./assets/images/streetart-03.jpg" class="transition" -->
 
 # AutoML
 
@@ -38,12 +38,6 @@ Edge = offline vs Vision = in cloud
 Notes:
 Etape Longue mais totalement transparente
 Lancement durant la nuit - attention à la tarification et à la taille de votre projet
-
-##==##
-
-<!-- .slide: data-background="./assets/images/streetart-05.jpg" class="transition"-->
-
-# Modèle offline
 
 ##==##
 
