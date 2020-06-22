@@ -58,7 +58,7 @@ New @angular/pwa
 
 <!-- .slide: class="with-code"-->
 
-# Création d'un service worker métier
+# Service worker métier
 
 ```javascript
 self.addEventListener('activate', (event) => {
@@ -82,7 +82,7 @@ self.addEventListener('activate', (event) => {
 
 <!-- .slide: class="with-code"-->
 
-# Création d'un service worker métier
+# Service worker métier
 
 ```javascript
 self.addEventListener('fetch', (event) => {

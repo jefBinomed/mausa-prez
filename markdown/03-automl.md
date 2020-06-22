@@ -37,7 +37,8 @@ Edge = offline vs Vision = in cloud
 
 Notes:
 Etape Longue mais totalement transparente
-Lancement durant la nuit - attention à la tarification et à la taille de votre projet
+! tarification
+1000-10000 : 4-6 heures recommandées
 
 ##==##
 
@@ -47,10 +48,12 @@ Lancement durant la nuit - attention à la tarification et à la taille de votre
 
 Notes:
 
-- TF Lite
+- TF Lite (mobile & périphérique)
 - Core ML (IOS)
 - Container (TF run on a docker container)
 - Coral (Edge TPU - Google - circuit électronique applicatif)
+
+Format export : dictionnaire, binaires, config en json
 
 ##==##
 
