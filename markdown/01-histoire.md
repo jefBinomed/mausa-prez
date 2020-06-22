@@ -19,3 +19,17 @@ Liste ordonées / Feedback / Géoloc
 
 Notes:
 Version de node / Angular
+
+##==##
+
+<!-- .slide: class="full-center" -->
+
+# Premier use case
+
+![](./assets/images/mausa-logo.jpg)
+
+##==##
+
+<!-- .slide: data-background="./assets/images/muse_mausa.jpg" class="transition" -->
+
+# Des créations uniques
