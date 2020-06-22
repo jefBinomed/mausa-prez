@@ -23,4 +23,28 @@
       }
     }
   }
+
+  .thanks {
+    h3 {
+      color: black;
+      font-size: 1.2em;
+      position: absolute;
+      left: 70px;
+      top: 600px;
+
+      &.first {
+        top: 400px;
+      }
+
+      &.icon-twitter:before {
+        content: '\ec98';
+        font-family: 'sfeir';
+        position: absolute;
+        top: 0;
+        left: -70px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
 }
