@@ -30,10 +30,28 @@ Version de node / Angular / Prise de recul sur l'archi
 
 # Premier use case
 
-![](./assets/images/mausa-logo.jpg)
+<div class="flex-row">
+    <div><img class="h-600" src="./assets/images/mausa-loc.jpeg"></div>
+    <div><img src="./assets/images/mausa-ext.png"></div>
+</div>
 
 ##==##
 
-<!-- .slide: data-background="./assets/images/muse_mausa.jpg" class="transition" -->
+<!-- .slide: -->
 
 # Des créations uniques
+
+<div class="grid-container">
+    <div class="grid-cell" style="grid-column:1;grid-row:1/3;">
+        <img src="./assets/images/mausa-live-2.jpeg">
+    </div>
+    <div class="grid-cell" style="grid-column:2;grid-row:1;">
+        <img src="./assets/images/mausa-live-1.jpeg">
+    </div>
+    <div class="grid-cell" style="grid-column:3;grid-row:1/3;">
+        <img src="./assets/images/mausa-groupe.jpeg">
+    </div>
+    <div class="grid-cell" style="grid-column:2;grid-row:2;">
+        <img src="./assets/images/mausa-live-3.jpeg">
+    </div>
+</div>
