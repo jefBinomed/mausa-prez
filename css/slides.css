@@ -1,0 +1,37 @@
+.reveal .slides section .grid-container {
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, 350px);
+  text-align: center; }
+  .reveal .slides section .grid-container .grid-cell {
+    position: relative;
+    vertical-align: middle; }
+    .reveal .slides section .grid-container .grid-cell img {
+      max-width: 100%;
+      max-height: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto; }
+
+.reveal .slides section .thanks h3 {
+  color: black;
+  font-size: 1.2em;
+  position: absolute;
+  left: 70px;
+  top: 600px; }
+  .reveal .slides section .thanks h3.first {
+    top: 400px; }
+  .reveal .slides section .thanks h3.icon-twitter:before {
+    content: '\ec98';
+    font-family: 'sfeir';
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 50px;
+    height: 50px; }
+
+/*# sourceMappingURL=slides.css.map */
