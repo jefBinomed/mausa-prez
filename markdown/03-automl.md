@@ -5,6 +5,7 @@
 Notes:
 Service de machine learning de GCP
 => besoin : classification d'image
+Par raaport au offline, solution possible d'export
 
 ##==##
 
@@ -16,7 +17,8 @@ Service de machine learning de GCP
 
 Notes:
 Plus il y a d'images, plus la qualité du modèle est meilleure
-Classer les images par étiquette - générateur de CSV
+
+Générateur de CSV
 
 ##==##
 
@@ -37,8 +39,10 @@ Edge = offline vs Vision = in cloud
 
 Notes:
 Etape Longue mais totalement transparente
-! tarification
+
 1000-10000 : 4-6 heures recommandées
+
+Coût d'entraînement - heures d'entraînement free pour test
 
 ##==##
 
@@ -48,10 +52,10 @@ Etape Longue mais totalement transparente
 
 Notes:
 
-- TF Lite (mobile & périphérique)
+- TF Lite (mobile)
 - Core ML (IOS)
-- Container (TF run on a docker container)
-- Coral (Edge TPU - Google - circuit électronique applicatif)
+- Container (TF run on a container)
+- Coral (circuit électronique applicatif our périphérique)
 
 Format export : dictionnaire, binaires, config en json
 
@@ -109,3 +113,5 @@ Et de trier
 
 Notes:
 Garder l'API Vision
+
+Conclusion : application utilisable dans le musée

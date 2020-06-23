@@ -3,7 +3,7 @@
 ![center h-900](./assets/images/dinosaur.jpg)
 
 Notes:
-First evolution - PWA - offline
+Contexte: offline
 
 ##==##
 
@@ -13,18 +13,18 @@ First evolution - PWA - offline
 
 Notes:
 
-- Main offline
+- PWA existant mais à renforcer
 
-- Développement d'application Web telle une applications mobiles ou natives
-  Première clé de boost des PWA,
-
-- fichier manifest
+- En particulier offline et perf
 
 ##==##
 
 # Service worker
 
 ![center](./assets/images/service_worker_explain.svg)
+
+Notes:
+Proxy
 
 ##==##
 
@@ -41,10 +41,12 @@ ServiceWorkerModule.register('/ngsw-worker.js', {
 <!-- .element: class="big-code" -->
 
 Notes:
-Angular génère un service worker - @angular/service-worker
+@angular/service-worker
+
 ngsw-worker.json => ngsw-worker.js
 
-Le service worker d'angular se charge de toutes la gestion des données statiques ainsi que des routes principales
+données statiques et routes principales
+Pas d'url paramétré
 
 New @angular/pwa
 
@@ -53,6 +55,10 @@ New @angular/pwa
 <!-- .slide: data-background="./assets/images/streetart-01.jpg" class="transition"-->
 
 # Service worker - custom
+
+Notes:
+cas concret classification d'une photo
+request paramétrée
 
 ##==##
 
@@ -105,6 +111,9 @@ self.addEventListener('fetch', (event) => {
 
 # Deux services worker
 
+Notes:
+Si angular en erreur pas d'interception par le le custom !!
+
 ##==##
 
 # Voie officielle
@@ -117,10 +126,7 @@ self.addEventListener('fetch', (event) => {
 [https://angular.io/guide/service-worker-devops#bypassing-the-service-worker](https://angular.io/guide/service-worker-devops#bypassing-the-service-worker)
 
 Notes:
-Le service worker Angular va tout analyzer de base et si erreur aucune possibilité à notre service de worker d'intercepter l'appel
-Défaut :
-
-- paramètre à surcharger !!
+PB paramètre à surcharger, plusieurs modif à prévoir même semble-t-il minime !!
 
 ##==##
 
@@ -143,3 +149,7 @@ self.addEventListener('fetch', event => { ... })
 ```
 
 <!--.element: class="big-code"-->
+
+Notes:
+
+CONCLU: Offline traité pour les appels de notre API
